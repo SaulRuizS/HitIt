@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: chartreuse;
+    background-color: rgb(189, 255, 82);
 }
 
 .tittle {
@@ -53,7 +53,7 @@ body {
     border-width: 5px;
     border-style: dotted;
     border-radius: 10px;
-    background-color: rgb(114, 245, 114);
+    background-color: rgb(163, 255, 163);
     margin: 40px auto;
 }
 
