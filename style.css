@@ -1,86 +1,91 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: sans-serif;
+  font-size: 62.5%;
+  font-family: sans-serif;
 }
 
 body {
-    background-color: rgb(189, 255, 82);
+  background-color: rgb(189, 255, 82);
 }
 
 .tittle {
-    font-size: 4rem;
-    font-weight: 1000;
-    font-style: oblique;
-    text-align: center;
-    text-decoration: underline;
-    color: black;
-    margin: 30px auto;
+  font-size: 4rem;
+  font-weight: 1000;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  margin: 30px auto;
 }
 
 .score-time__container {
-    display: flex;
-    flex-direction: row;
-    width: 250px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .score-time__container h2 {
-    font-size: 2rem;
-    font-weight: 800;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .score-time__container .score {
-    text-align: left;
-    width: 100px;
+  text-align: left;
+  width: 100px;
 }
 
 .score-time__container .time-left {
-    text-align: right;
-    width: 150px;
+  text-align: right;
+  width: 150px;
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 310px;
-    height: 310px;
-    border-width: 5px;
-    border-style: dotted;
-    border-radius: 10px;
-    background-color: rgb(163, 255, 163);
-    margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+  height: 310px;
+  border-width: 5px;
+  border-style: dotted;
+  border-radius: 10px;
+  background-color: rgb(163, 255, 163);
+  margin: 40px auto;
 }
 
 .grid .square {
-    width: 100px;
-    height: 100px;
-    border-width: 5px;
-    border-style: dotted;
+  width: 100px;
+  height: 100px;
+  border-width: 5px;
+  border-style: dotted;
 }
 
 .grid .top {
-    border-top: 0;
-    border-bottom: 0;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 .grid .bottom {
-    border-bottom: 0;
-    border-top: 0;
+  border-bottom: 0;
+  border-top: 0;
 }
 
 .grid .left {
-    border-left: 0;
-    border-right: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 .grid .right {
-    border-right: 0;
-    border-left: 0;
+  border-right: 0;
+  border-left: 0;
 }
 
+.mole {
+  background-image: url(./mole.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+}
