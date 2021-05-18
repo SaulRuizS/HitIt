@@ -26,23 +26,14 @@ body {
 .score-time__container {
   display: flex;
   flex-direction: row;
-  width: 250px;
+  width: 262px;
   margin: 0 auto;
 }
 
 .score-time__container h2 {
   font-size: 2rem;
   font-weight: 800;
-}
-
-.score-time__container .score {
-  text-align: left;
-  width: 100px;
-}
-
-.score-time__container .time-left {
-  text-align: right;
-  width: 150px;
+  margin: 10px;
 }
 
 .grid {
@@ -88,4 +79,5 @@ body {
   background-image: url(./mole.png);
   background-size: 90px;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
