@@ -1,1 +1,3 @@
 # Hit It
+
+## Usage
