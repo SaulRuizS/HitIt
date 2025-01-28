@@ -3,6 +3,6 @@
 ## Usage
 
 ## Contributing
-Feel free to contribute in any way.
+Feel free to contribute.
 
 ## License
